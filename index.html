@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da velha</title>
+    <link rel="stylesheet" text="text/css" href="style.css">
+</head>
+<body>
+    <h1>Jogo da Velha</h1>
+
+    <div class="stage">
+        <div>
+            <div id="0" class="square">
+                <div class=""></div>
+            </div>
+            <div id="1" class="square">
+                <div class=""></div>
+            </div>
+            <div id="2" class="square"></div>
+        </div>
+        <div>
+            <div id="3" class="square"></div>
+            <div id="4" class="square"></div>
+            <div id="5" class="square"></div>
+        </div>
+        <div>
+            <div id="6" class="square"></div>
+            <div id="7" class="square"></div>
+            <div id="8" class="square"></div>
+        </div>
+    </div>    
+
+    <div>
+        <div><input type="button" value="Reiniciar" id="btf5" onclick="reiniciar()"></div>
+    </div>
+    <h3 class='placar'>Placar</h3>
+      
+        <div id='players'>
+        <div id='p1'></div>
+        <div id=vs>vs</div>
+        <div id='p2'></div>
+        </div>
+
+        <div id='placar2'>
+        <div id='p1placar'>0</div>
+        <div id=vsplacar></div>
+        <div id='p2placar'>0</div>
+        </div>
+
+
+
+    </div>
+    <script src="game.js"></script>
+    <script src="interface.js"></script>
+</body>
+<footer>
+    @ by André Sousa
+</footer>
+</html>
